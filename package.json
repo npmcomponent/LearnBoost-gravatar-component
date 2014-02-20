@@ -1,19 +1,11 @@
 {
-  "name": "gravatar-component",
+  "name": "learnboost-gravatar-component",
   "description": "Simple browser implementation of the Gravatar API",
   "version": "1.0.6",
+  "main": "gravatar.js",
   "dependencies": {
-    "md5-component": "0.0.1",
-    "jsonp": "0.0.1",
-    "querystring-component": "1.1.0"
-  },
-  "component": {
-    "scripts": {
-      "gravatar": "gravatar.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LearnBoost/gravatar-component.git"
+    "enyo-md5": "git://github.com/npmcomponent/enyo-md5.git",
+    "learnboost-jsonp": "git://github.com/npmcomponent/learnboost-jsonp.git",
+    "component-querystring": "git://github.com/npmcomponent/component-querystring.git"
   }
 }

@@ -2,9 +2,9 @@
  * Module dependencies.
  */
 
-var md5 = require('md5');
-var jsonp = require('jsonp');
-var querystring = require('querystring');
+var md5 = require('enyo-md5');
+var jsonp = require('learnboost-jsonp');
+var querystring = require('component-querystring');
 
 /**
  * Creates an avatar url
